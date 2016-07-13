@@ -4,7 +4,7 @@ buildscript {
     repositories {
         jcenter()
         mavenLocal()
-        mavenCentral()
+        //mavenCentral()
         //maven { url 'http://download.crashlytics.com/maven' }
     }
     dependencies {
