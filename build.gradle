@@ -3,7 +3,9 @@
 buildscript {
     repositories {
         jcenter()
-        maven { url 'http://download.crashlytics.com/maven' }
+        mavenLocal()
+        mavenCentral()
+        //maven { url 'http://download.crashlytics.com/maven' }
     }
     dependencies {
         classpath "org.jfrog.buildinfo:build-info-extractor-gradle:3.+"
