@@ -1,9 +1,5 @@
 apply plugin : 'java'
 
-groupId = 'learnCI'
-version = '1.0'
-def artifactId = geadleTasksDemo
-def versionNumber = 1.0
 
 task testTask(type: JavaExec){
 main='src.main.java.test'
