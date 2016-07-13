@@ -7,6 +7,7 @@ buildscript {
     }
     dependencies {
         classpath "org.jfrog.buildinfo:build-info-extractor-gradle:3.+"
+        compile  'commons-collections:commons-collections:3.2@jar', 'commons-io:commons-io:1.2', 'commons-lang:commons-lang:2.4@jar'
     }
 }
 
