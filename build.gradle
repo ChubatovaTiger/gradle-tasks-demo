@@ -7,7 +7,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '3.2.0')
+        classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '2.10')
     }
 }
 
@@ -62,5 +62,7 @@ main='src.main.java.test'
 classpath=sourceSets.main.runtimeClasspath
 
 } 
-
+task wrapper(type: Wrapper) {
+     gradleVersion = '3.2.0' //we want gradle 2.10 to run this project
+ }
 
