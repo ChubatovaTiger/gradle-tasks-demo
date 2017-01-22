@@ -31,3 +31,4 @@
 
 	<!-- Default, run this -->
 <target name="main" depends="clean, compile, jar" />
+</project>
