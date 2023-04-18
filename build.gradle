@@ -18,12 +18,7 @@ apply plugin: 'maven-publish'
 
 dependencies {
     testImplementation 'junit:junit:4.7'
-    
-        compile group: 'commons-io', name: 'commons-io', version: '2.5'
-        // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
-        compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
-        // https://mvnrepository.com/artifact/commons-collections/commons-collections
-     compile group: 'commons-collections', name: 'commons-collections', version: '3.2.1'
+
 
 }
 
